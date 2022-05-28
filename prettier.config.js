@@ -1,4 +1,6 @@
 module.exports = {
+  trailingComma: 'all',
   singleQuote: true,
-  semi: false,
+  arrowParens: 'always',
+  tabWidth: 2,
 }

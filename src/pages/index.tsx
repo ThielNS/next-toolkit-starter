@@ -1,9 +1,9 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import { Box, Code, Text } from '@mantine/core'
-import Card from '../components/Card'
-import Grid from '../components/Grid'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import { Box, Code, Text } from '@mantine/core';
+import Card from '../components/Card';
+import Grid from '../components/Grid';
 
 const Home: NextPage = () => {
   return (
@@ -34,7 +34,6 @@ const Home: NextPage = () => {
       >
         <Text
           sx={{
-            color: '#0070f3',
             fontSize: '2rem',
             '@media (min-width: 800px)': {
               fontSize: '3rem',
@@ -43,7 +42,7 @@ const Home: NextPage = () => {
             textAlign: 'center',
           }}
         >
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">next-toolkit-starter!</a>
         </Text>
 
         <Text
@@ -117,7 +116,7 @@ const Home: NextPage = () => {
         </a>
       </Box>
     </Box>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
