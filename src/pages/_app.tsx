@@ -1,12 +1,12 @@
 import type { AppProps } from 'next/app';
-import AppContexts from '@/core/contexts/AppContexts';
+import AppConfigs from '@/core/configs/AppConfigs';
 import '../styles/globals.css';
 
 function App({ Component, pageProps }: AppProps) {
   return (
-    <AppContexts>
+    <AppConfigs>
       <Component {...pageProps} />
-    </AppContexts>
+    </AppConfigs>
   );
 }
 
