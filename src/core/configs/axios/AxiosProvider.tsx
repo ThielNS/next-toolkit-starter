@@ -1,12 +1,6 @@
-/**
- *
- * AxiosProvider Context
- *
- */
-
 import { AxiosRequestConfig } from 'axios';
 import { createContext, useContext } from 'react';
-import { AxiosProviderProps, AxiosContextProps } from './AxiosProvider.types';
+import { AxiosContextProps, AxiosProviderProps } from './AxiosProvider.types';
 
 const AxiosContext = createContext({} as AxiosContextProps);
 
